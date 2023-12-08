@@ -1,0 +1,5 @@
+sphinx-book-theme
+myst-nb
+ghp-import
+jupyter-book==0.11.3
+jupytext
