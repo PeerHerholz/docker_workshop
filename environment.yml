@@ -1,0 +1,21 @@
+name: docker_workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipython
+  - jupyter
+  - jupyterlab
+  - jupyter_contrib_nbextensions
+  - nb_conda
+  - nb_conda_kernels
+  - nbconvert=5
+  - nbformat
+  - jupyter-book
+  - pip
+  - pytest
+  - traits
+  - pip:
+    - datalad[full]
+    - duecredit
