@@ -1,0 +1,25 @@
+root: index
+format: jb-book
+chapters:
+- file: dei
+- file: overview
+- file: setup
+- file: outline
+- file: prerequisites
+  sections:
+    - file: prerequisites/intro_to_shell
+    - file: prerequisites/intro_to_git_and_github
+    - file: prerequisites/intro_jupyter    
+- file: basics
+  sections:
+    - file: basics/introduction
+    - file: basics/installation_trouble_shooting
+    - file: basics/quickstart
+- file: advanced
+  sections:
+    - file: advanced/management
+    - file: advanced/data
+    - file: advanced/creating
+    - file: advanced/creating_your_own
+- file: break
+- file: CoC
